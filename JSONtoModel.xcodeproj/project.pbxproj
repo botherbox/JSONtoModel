@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E431990E1AB0A4AB00F342CF /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431990D1AB0A4AB00F342CF /* NewsModel.swift */; };
+		E43199161AB0A7CC00F342CF /* EasyNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43199131AB0A7CC00F342CF /* EasyNetwork.swift */; };
+		E43199181AB0A7CC00F342CF /* String+Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43199151AB0A7CC00F342CF /* String+Hash.swift */; };
+		E47E41E41AAEFF7000923FF8 /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = E47E41E31AAEFF7000923FF8 /* demo.json */; };
 		E49DAEB01AAC60EA008805B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DAEAF1AAC60EA008805B3 /* AppDelegate.swift */; };
 		E49DAEB21AAC60EA008805B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DAEB11AAC60EA008805B3 /* ViewController.swift */; };
 		E49DAEB51AAC60EA008805B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49DAEB31AAC60EA008805B3 /* Main.storyboard */; };
 		E49DAEB71AAC60EA008805B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49DAEB61AAC60EA008805B3 /* Images.xcassets */; };
 		E49DAEBA1AAC60EB008805B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E49DAEB81AAC60EB008805B3 /* LaunchScreen.xib */; };
 		E49DAEC61AAC60EB008805B3 /* JSONtoModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DAEC51AAC60EB008805B3 /* JSONtoModelTests.swift */; };
+		E49DAED01AAC6109008805B3 /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DAECF1AAC6109008805B3 /* DemoModel.swift */; };
+		E49DAED41AAC62F8008805B3 /* JSONtoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49DAED31AAC62F8008805B3 /* JSONtoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E431990D1AB0A4AB00F342CF /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		E43199111AB0A7CC00F342CF /* EasyNetwork-bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNetwork-bridge.h"; sourceTree = "<group>"; };
+		E43199121AB0A7CC00F342CF /* EasyNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNetwork.h; sourceTree = "<group>"; };
+		E43199131AB0A7CC00F342CF /* EasyNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyNetwork.swift; sourceTree = "<group>"; };
+		E43199151AB0A7CC00F342CF /* String+Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Hash.swift"; sourceTree = "<group>"; };
+		E47E41E31AAEFF7000923FF8 /* demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demo.json; sourceTree = "<group>"; };
+		E47E41E51AAF27EF00923FF8 /* JSONtoModel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONtoModel-Bridging-Header.h"; sourceTree = "<group>"; };
 		E49DAEAA1AAC60EA008805B3 /* JSONtoModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONtoModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49DAEAE1AAC60EA008805B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49DAEAF1AAC60EA008805B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +49,8 @@
 		E49DAEBF1AAC60EB008805B3 /* JSONtoModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONtoModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49DAEC41AAC60EB008805B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E49DAEC51AAC60EB008805B3 /* JSONtoModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONtoModelTests.swift; sourceTree = "<group>"; };
+		E49DAECF1AAC6109008805B3 /* DemoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoModel.swift; sourceTree = "<group>"; };
+		E49DAED31AAC62F8008805B3 /* JSONtoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONtoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E431990F1AB0A7BE00F342CF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E43199101AB0A7CC00F342CF /* EasyNetwork */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		E43199101AB0A7CC00F342CF /* EasyNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				E43199111AB0A7CC00F342CF /* EasyNetwork-bridge.h */,
+				E43199121AB0A7CC00F342CF /* EasyNetwork.h */,
+				E43199131AB0A7CC00F342CF /* EasyNetwork.swift */,
+				E43199151AB0A7CC00F342CF /* String+Hash.swift */,
+			);
+			path = EasyNetwork;
+			sourceTree = "<group>";
+		};
 		E49DAEA11AAC60EA008805B3 = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +111,17 @@
 		E49DAEAC1AAC60EA008805B3 /* JSONtoModel */ = {
 			isa = PBXGroup;
 			children = (
+				E431990F1AB0A7BE00F342CF /* Tool */,
 				E49DAEAF1AAC60EA008805B3 /* AppDelegate.swift */,
 				E49DAEB11AAC60EA008805B3 /* ViewController.swift */,
+				E49DAECF1AAC6109008805B3 /* DemoModel.swift */,
+				E431990D1AB0A4AB00F342CF /* NewsModel.swift */,
+				E49DAED31AAC62F8008805B3 /* JSONtoModel.swift */,
 				E49DAEB31AAC60EA008805B3 /* Main.storyboard */,
 				E49DAEB61AAC60EA008805B3 /* Images.xcassets */,
 				E49DAEB81AAC60EB008805B3 /* LaunchScreen.xib */,
 				E49DAEAD1AAC60EA008805B3 /* Supporting Files */,
+				E47E41E51AAF27EF00923FF8 /* JSONtoModel-Bridging-Header.h */,
 			);
 			path = JSONtoModel;
 			sourceTree = "<group>";
@@ -90,6 +129,7 @@
 		E49DAEAD1AAC60EA008805B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E47E41E31AAEFF7000923FF8 /* demo.json */,
 				E49DAEAE1AAC60EA008805B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +234,7 @@
 			files = (
 				E49DAEB51AAC60EA008805B3 /* Main.storyboard in Resources */,
 				E49DAEBA1AAC60EB008805B3 /* LaunchScreen.xib in Resources */,
+				E47E41E41AAEFF7000923FF8 /* demo.json in Resources */,
 				E49DAEB71AAC60EA008805B3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +254,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49DAEB21AAC60EA008805B3 /* ViewController.swift in Sources */,
+				E49DAED41AAC62F8008805B3 /* JSONtoModel.swift in Sources */,
+				E43199161AB0A7CC00F342CF /* EasyNetwork.swift in Sources */,
+				E43199181AB0A7CC00F342CF /* String+Hash.swift in Sources */,
+				E49DAED01AAC6109008805B3 /* DemoModel.swift in Sources */,
 				E49DAEB01AAC60EA008805B3 /* AppDelegate.swift in Sources */,
+				E431990E1AB0A4AB00F342CF /* NewsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +386,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JSONtoModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSONtoModel/JSONtoModel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +399,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JSONtoModel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSONtoModel/JSONtoModel-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +460,7 @@
 				E49DAECB1AAC60EB008805B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E49DAECC1AAC60EB008805B3 /* Build configuration list for PBXNativeTarget "JSONtoModelTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +469,7 @@
 				E49DAECE1AAC60EB008805B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,22 @@
+{
+	"name"      : "小狗🐶",
+    "age"       : 18,
+    "boolVar"   : true,
+    "floatVar"  : 100000.99,
+    "doubleVar" : 8.01,
+    "num"       : null,
+    "nsArr"     : ["zhangsan", "lisi", "wangwu"],
+    "info"      : {"name": "来啊"},
+    "infoArr"   : [{"name": "zhangsan"},{"name": "lisi"}],
+    "typeList"  : [{"name": "iPhone"},{"name": "iOS"}],
+    "demo"      : [
+                    [
+                        {"name": "demo1"},
+                        {"name": "demo2"}
+                    ],
+                    [
+                        {"name": "omed1"},
+                        {"name": "omed2"}
+                    ]
+    ]
+}
